@@ -229,30 +229,58 @@ We explored multiple classification algorithms to identify the best fit:
 
 ## **Setup Instructions**  
 
-1. **Clone the Repository**  
-   ```bash
-   git clone <repository-link>
-   cd Airline-Passenger-Referral-Program
-   ```
+Thanks for clarifying! Since everything is in the Jupyter Notebook (`Airline_Passenger_Referral_Prediction_.ipynb`) and the dataset (`data_airline_reviews.xlsx`), here’s the revised setup tailored to your project structure:  
 
-2. **Install Dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-3. **Run Preprocessing Scripts**  
-   ```bash
-   python preprocess_data.py
-   ```
+## **Setup Instructions**
 
-4. **Train the Model**  
-   ```bash
-   python train_model.py
-   ```
+### **1. Clone the Repository**  
+Download or clone the repository to your local machine and navigate to the project directory:  
 
-5. **Run Predictions**  
-   ```bash
-   python predict.py --input <data_airline_reviews.xlsx>
+```bash
+git clone <repository-link>
+cd Airline_Passenger_Referral_Prediction
+```
+
+### **2. Install Dependencies**  
+Ensure you have Python installed along with the following required libraries. Install them with:  
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter openpyxl
+```
+
+### **3. Open the Jupyter Notebook**  
+Launch Jupyter Notebook and open the provided file:  
+
+```bash
+jupyter notebook Airline_Passenger_Referral_Prediction_.ipynb
+```
+
+### **4. Run the Notebook**  
+- Follow the cells sequentially in the notebook.  
+
+### **5. Ensure Dataset Availability**  
+Place the `data_airline_reviews.xlsx` file in the same directory as the notebook to ensure it loads correctly.  
+
+### **6. Export Results**  
+Use the notebook to generate predictions or insights and export them as needed. For example, save predictions to a CSV file:  
+```python
+import pandas as pd
+
+# Save predictions to a file
+predictions = pd.DataFrame({"Prediction": y_pred})
+predictions.to_csv("predictions.csv", index=False)
+```
+
+
+### **Workflow Summary**  
+
+1. **Run the Notebook**: Start from the top and execute each cell sequentially.  
+2. **Inspect Results**: View visualizations, metrics, and predictions inline in the notebook.  
+3. **Export**: Save any model or results directly from the notebook if required.  
+
+Let me know if you’d like help refining the notebook code or adding new sections!
    ```
 
 
