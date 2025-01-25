@@ -1,5 +1,21 @@
 # **Airline Passenger Referral Program Development with Classification Techniques**  
 
+### **Table of Contents**
+
+1. [**Overview**](#overview)  
+2. [**Objective**](#objective)  
+3. [**Dataset Summary**](#dataset-summary)  
+4. [**Pipeline Architecture**](#pipeline-architecture)  
+5. [**Data Ingestion and Cleaning**](#data-ingestion-and-cleaning)  
+6. [**Feature Engineering**](#feature-engineering)  
+7. [**Model Development**](#model-development)  
+8. [**Model Evaluation**](#model-evaluation)  
+9. [**Setup Instructions**](#setup-instructions)  
+10. [**Insights and Observations**](#insights-and-observations)  
+11. [**Future Work**](#future-work)    
+12. [**Contributions**](#contributions)
+
+
 ## **Overview**  
 Airlines operate in a highly competitive market where retaining existing customers and acquiring new ones are critical for growth. This project focuses on solving one such challenge: predicting whether a referred passenger will book a flight. Using machine learning classification techniques, we analyzed historical passenger data to uncover the key drivers behind successful referrals.  
 
@@ -253,3 +269,6 @@ We explored multiple classification algorithms to identify the best fit:
 4. **Continuous Learning**:  
    - Periodically retrain the model to adapt to changing customer preferences.  
 
+
+## **Contributions**  
+Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request. 
