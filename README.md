@@ -227,12 +227,6 @@ We explored multiple classification algorithms to identify the best fit:
 - Insights from coefficients confirmed the importance of "Overall Rating" and "Value for Money."  
 
 
-## **Setup Instructions**  
-
-Thanks for clarifying! Since everything is in the Jupyter Notebook (`Airline_Passenger_Referral_Prediction_.ipynb`) and the dataset (`data_airline_reviews.xlsx`), here’s the revised setup tailored to your project structure:  
-
----
-
 ## **Setup Instructions**
 
 ### **1. Clone the Repository**  
@@ -272,17 +266,6 @@ import pandas as pd
 predictions = pd.DataFrame({"Prediction": y_pred})
 predictions.to_csv("predictions.csv", index=False)
 ```
-
-
-### **Workflow Summary**  
-
-1. **Run the Notebook**: Start from the top and execute each cell sequentially.  
-2. **Inspect Results**: View visualizations, metrics, and predictions inline in the notebook.  
-3. **Export**: Save any model or results directly from the notebook if required.  
-
-Let me know if you’d like help refining the notebook code or adding new sections!
-   ```
-
 
 ## **Future Work**  
 1. **Real-Time Integration**:  
