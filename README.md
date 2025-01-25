@@ -252,7 +252,7 @@ jupyter notebook Airline_Passenger_Referral_Prediction_.ipynb
 ```
 
 ### **4. Run the Notebook**  
-- Follow the cells sequentially in the notebook.  
+Follow the cells sequentially in the notebook.  
 
 ### **5. Ensure Dataset Availability**  
 Place the `data_airline_reviews.xlsx` file in the same directory as the notebook to ensure it loads correctly.  
