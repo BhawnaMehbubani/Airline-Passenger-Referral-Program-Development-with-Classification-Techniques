@@ -252,7 +252,7 @@ We explored multiple classification algorithms to identify the best fit:
 
 5. **Run Predictions**  
    ```bash
-   python predict.py --input <data_file>
+   python predict.py --input <data_airline_reviews.xlsx>
    ```
 
 
